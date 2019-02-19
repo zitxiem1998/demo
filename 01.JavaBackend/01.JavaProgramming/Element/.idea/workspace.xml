@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26327edd-4dba-4de9-b863-b91565665ce0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Convert/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Convert/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Perform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Perform/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../114176/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../114176/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,12 +99,12 @@
       <updated>1550571735560</updated>
       <workItem from="1550571738285" duration="655000" />
       <workItem from="1550585759159" duration="111000" />
-      <workItem from="1550586395986" duration="1089000" />
+      <workItem from="1550586395986" duration="1093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1855000" />
+    <option name="totallyTimeSpent" value="1859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1295" height="704" extended-state="6" />
@@ -120,7 +118,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
