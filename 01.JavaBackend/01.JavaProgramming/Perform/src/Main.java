@@ -11,8 +11,9 @@ public class Main {
         System.out.print("Moi ban nhap chieu rong: ");
         crong = scanner.nextInt();
         for (int i = 0; i < cdai; i++) {
-            for (int j = 0; j < crong; j++)
+            for (int j = 0; j < crong; j++) {
                 System.out.print("*");
+            }
             System.out.print("\r\n");
         }
     }
