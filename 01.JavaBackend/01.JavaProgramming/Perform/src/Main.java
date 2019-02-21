@@ -82,6 +82,25 @@ public class Main {
     }
     public static void main(String[] args) {
         Main main = new Main();
-        main.isosceles();
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Menu");
+        System.out.println("Draw the rectangle");
+        System.out.println("Draw the Right triangle");
+        System.out.println("Draw the isosceles triangle");
+        System.out.print("Moi ban nhap lua chon: ");
+        int choice = scanner.nextInt();
+        switch (choice) {
+            case 1:
+                main.rectangle();
+                break;
+            case 2:
+                main.triangle();
+                break;
+            case 3:
+                main.isosceles();
+                break;
+            case 0:
+                System.exit(0);
+        }
     }
 }
