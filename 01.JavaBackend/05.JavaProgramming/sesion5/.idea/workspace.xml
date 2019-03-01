@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5f1e3ec-c512-4df5-a18f-8a4afcf2827b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/animalAndInterfaceEdible/AbstractAndInterfaceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animalAndInterfaceEdible/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animalAndInterfaceEdible/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animalAndInterfaceEdible/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animalAndInterfaceEdible/Edible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animalAndInterfaceEdible/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animalAndInterfaceEdible/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animalAndInterfaceEdible/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceComparator/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceComparator/CircleComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceComparator/Colorable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceComparator/ComparableCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceComparator/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceComparator/RectangleComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceComparator/Resizeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceComparator/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceComparator/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceComparator/SquareComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../02.JavaProgramming/sesion3/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../04.JavaProgramming/sesion4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.JavaProgramming/sesion4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/interfaceComparator/Shape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
+            <state relative-caret-position="289">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
@@ -45,15 +26,7 @@
         <entry file="file://$PROJECT_DIR$/src/interfaceComparator/Square.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="56" column="46" lean-forward="true" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
-              <folding>
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-              </folding>
+              <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -70,12 +43,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/interfaceComparator/SquareComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+            <state relative-caret-position="170">
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,16 +67,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/interfaceComparator/ComparableCircle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="51">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,12 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/interfaceComparator/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="357">
               <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-              <folding>
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -136,14 +97,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/interfaceComparator/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="53" column="5" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="731">
+              <caret line="53" column="5" selection-start-line="47" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
               <folding>
+                <element signature="e#586#587#0" expanded="true" />
                 <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
                 <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#1097#1098#0" expanded="true" />
                 <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#1167#1168#0" expanded="true" />
                 <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
                 <element signature="e#1263#1264#0" expanded="true" />
+                <element signature="e#1307#1308#0" expanded="true" />
                 <element signature="e#1343#1344#0" expanded="true" />
               </folding>
             </state>
@@ -153,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/interfaceComparator/RectangleComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="476">
+              <caret line="30" column="5" selection-start-line="12" selection-start-column="2" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -211,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,13 +206,14 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551324858177" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../03.JavaProgramming/sesion3/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -360,16 +327,18 @@
       <workItem from="1551252031603" duration="245000" />
       <workItem from="1551252392278" duration="6366000" />
       <workItem from="1551316019753" duration="4657000" />
+      <workItem from="1551327166755" duration="65000" />
+      <workItem from="1551402426615" duration="68000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11298000" />
+    <option name="totallyTimeSpent" value="11431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1295" height="704" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2574899" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26639676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,7 +355,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -482,10 +451,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaceComparator/RectangleComparator.java">
+    <entry file="file://$PROJECT_DIR$/src/interfaceComparator/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaceComparator/Colorable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaceComparator/SquareComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -504,16 +487,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaceComparator/ComparableCircle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="51">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -527,52 +504,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaceComparator/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="357">
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaceComparator/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="731">
+          <caret line="53" column="5" selection-start-line="47" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
           <folding>
+            <element signature="e#586#587#0" expanded="true" />
             <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
             <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
             <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
             <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
             <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
             <element signature="e#1343#1344#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaceComparator/Colorable.java">
+    <entry file="file://$PROJECT_DIR$/src/interfaceComparator/RectangleComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaceComparator/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaceComparator/SquareComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        <state relative-caret-position="476">
+          <caret line="30" column="5" selection-start-line="12" selection-start-column="2" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -580,15 +543,7 @@
     <entry file="file://$PROJECT_DIR$/src/interfaceComparator/Square.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="56" column="46" lean-forward="true" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
-          <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-          </folding>
+          <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
         </state>
       </provider>
     </entry>
