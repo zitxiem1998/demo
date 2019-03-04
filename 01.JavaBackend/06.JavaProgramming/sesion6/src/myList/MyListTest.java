@@ -1,43 +1,39 @@
+package myList;
 
 import java.util.Arrays;
 
 
-public class MyList<E> {
+public class MyListTest<E> implements MyList<E> {
     private int size = 0;
     private static final int DEFAULT_CAPACITY = 10;
     private Object element[];
 
-    public MyList() {
+    public MyListTest() {
         element = new Object[DEFAULT_CAPACITY];
     }
 
-    public MyList(int capacity) {
+    public MyListTest(int capacity) {
         element = new Object[capacity];
     }
 
-    public void ensureCapa() {
-        if (size >= DEFAULT_CAPACITY) {
-            int newSize = element.length * 2;
-            element = Arrays.copyOf(element, newSize);
-        }
-    }
-
+    @Override
     public void add(int index, E e) {
         if (index < 0 || index > size) {
             throw new IndexOutOfBoundsException("Index: " + index + ", Size " + index);
         } else if (index == size) {
-            ensureCapa();
+            ensureCapacity();
             element[index] = e;
             size++;
         } else {
-            for (int i = size; i >= index; i--) {
+            for (int i = size-1 ; i >= index; i--) {
                 element[i + 1] = element[i];
             }
-            size++;
+            this.size++;
             element[index] = e;
         }
     }
 
+    @Override
     public Object remove(int index) {
         Object e;
         if (index < 0 || index > size) {
@@ -52,10 +48,12 @@ public class MyList<E> {
         }
     }
 
+    @Override
     public int size() {
         return this.size;
     }
 
+    @Override
     public Object[] clone() {
         Object[] clone = new Object[size];
         for (int i = 0; i < this.size; i++) {
@@ -64,6 +62,7 @@ public class MyList<E> {
         return clone;
     }
 
+    @Override
     public boolean contains(E e) {
         for (int i = 0; i < this.size; i++) {
             if (element[i] == e) {
@@ -71,6 +70,33 @@ public class MyList<E> {
             }
         }
         return false;
+    }
+
+    @Override
+    public int indexOf(E o) {
+        for (int i = 0; i < this.size; i++) {
+            if (o == element[i]) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    @Override
+    public boolean add(E e) {
+        ensureCapacity();
+        this.size++;
+        element[size - 1] = e;
+
+        return true;
+    }
+
+    @Override
+    public void ensureCapacity() {
+        if (size >= DEFAULT_CAPACITY) {
+            int newSize = element.length * 2;
+            element = Arrays.copyOf(element, newSize);
+        }
     }
 
 
@@ -81,22 +107,33 @@ public class MyList<E> {
         return element[index];
     }
 
+    @Override
+    public void clear() {
+        element =new Object[0];
+        this.size=0;
+    }
+
     public static void main(String[] args) {
-        MyList<Integer> myList = new MyList<Integer>();
+        MyListTest<Integer> myList = new MyListTest<Integer>();
         myList.add(0, 1);
         myList.add(1, 2);
         myList.add(2, 3);
         myList.add(3, 4);
         myList.add(4, 10);
+        myList.add(15);
 
         for (int i = 0; i < myList.size; i++) {
-            System.out.println("MyList[" + i + "] = " + myList.get(i));
+            System.out.println("myList.MyListTest[" + i + "] = " + myList.get(i));
         }
-        myList.add(5, 6);
         System.out.println("Remove = " + myList.remove(2));
+        myList.add(3, 6);
         for (int i = 0; i < myList.size; i++) {
-            System.out.println("MyList[" + i + "] = " + myList.get(i));
+            System.out.println("myList.MyListTest[" + i + "] = " + myList.get(i));
         }
         System.out.println("size:" + myList.size());
+        System.out.println("index Of 6 is " + myList.indexOf(6));
+        myList.clear();
+        System.out.println("size:" + myList.size());
+        System.out.print("element: "+myList.indexOf(1));
     }
 }
