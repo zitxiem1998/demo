@@ -7,18 +7,20 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>$$$</title>
-  </head>
-  <body>
-  <br >
+</head>
+<body>
+<br>
+<center>
     <h1>Currency Converter</h1>
-  <form method="get" action="converter.jsp">
-    <label>Rate: </label><br/>
-    <input type="text" name="rate" size="30" placeholder="RATE" value="22000"><br/>
-    <label>USD :</label><br/>
-    <input type="text" name="usd" size="30" placeholder="USD"><br/>
-    <input type="submit" value="Converter">
-  </form>
-  </body>
+    <form method="get" action="converter.jsp">
+        <label>Rate: </label><br/>
+        <input type="text" name="rate" size="30" placeholder="RATE" value="22000"><br/>
+        <label>USD :</label><br/>
+        <input type="text" name="usd" size="30" placeholder="USD"><br/>
+        <input type="submit" value="Converter">
+    </form>
+</center>
+</body>
 </html>
