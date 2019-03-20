@@ -1,4 +1,3 @@
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -76,6 +75,6 @@ public class TennisGameTest {
             if (i < this.player2Score)
                 scoreOfSecondPlayer += 1;
         }
-        assertEquals(this.expectedScore, TennisGame.getScore("John", "Bill", scoreOfFirstPlayer, scoreOfSecondPlayer));
+        assertEquals(this.expectedScore, TennisGame.compareScore(scoreOfFirstPlayer, scoreOfSecondPlayer));
     }
 }

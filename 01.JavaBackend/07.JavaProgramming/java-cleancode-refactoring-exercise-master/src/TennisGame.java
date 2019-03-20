@@ -13,64 +13,47 @@ public class TennisGame {
     public static final String ADVANTAGE_PLAYER_2 = "Advantage player2";
     public static final String WIN_FOR_PLAYER_1 = "Win for player1";
     public static final String WIN_FOR_PLAYER_2 = "Win for player2";
+    public static final int LOVE_SCORE = 0;
+    public static final int FIFTEEN_SCORE = 1;
+    public static final int THIRTY_SCORE = 2;
+    public static final int FORTY_SCORE = 3;
 
-    public static String getScore(String firstPlayer, String secondPlayer, int scoreOfFirstPlayer, int scoreOfSecondPlayer) {
+    public static String compareScore(int scoreOfFirstPlayer, int scoreOfSecondPlayer) {
         String score = "";
-        int tempScore = 0;
-        if (scoreOfFirstPlayer == scoreOfSecondPlayer) {
-            score = getScoreOfFirstPlayer(scoreOfFirstPlayer);
+        boolean isScoreEqual = scoreOfFirstPlayer == scoreOfSecondPlayer;
+        if (isScoreEqual) {
+            score = compareAllScore(scoreOfFirstPlayer);
         } else if (scoreOfFirstPlayer >= 4 || scoreOfSecondPlayer >= 4) {
             score = compareLargerOrEqual(scoreOfFirstPlayer, scoreOfSecondPlayer);
         } else {
-            score = getRemainingCases(scoreOfFirstPlayer, scoreOfSecondPlayer, score);
+            score = remainingCases(scoreOfFirstPlayer, scoreOfSecondPlayer, score);
         }
         return score;
     }
 
-    public static String getRemainingCases(int scoreOfFirstPlayer, int scoreOfSecondPlayer, String score) {
-        int tempScore;
-        for (int i = 1; i < 3; i++) {
-            if (i == 1) tempScore = scoreOfFirstPlayer;
-            else {
-                score += "-";
-                tempScore = scoreOfSecondPlayer;
-            }
-            switch (tempScore) {
-                case 0:
-                    score += LOVE;
-                    break;
-                case 1:
-                    score += FIFTEEN;
-                    break;
-                case 2:
-                    score += THIRTY;
-                    break;
-                case 3:
-                    score += FORTY;
-                    break;
-            }
-        }
-        return score;
-    }
-
-    public static String getScoreOfFirstPlayer(int scoreOfFirstPlayer) {
+    public static String compareAllScore(int scoreOfFirstPlayer) {
         String score;
         switch (scoreOfFirstPlayer) {
-            case 0:
+            case LOVE_SCORE: {
                 score = LOVE_ALL;
                 break;
-            case 1:
+            }
+            case FIFTEEN_SCORE: {
                 score = FIFTEEN_ALL;
                 break;
-            case 2:
+            }
+            case THIRTY_SCORE: {
                 score = THIRTY_ALL;
                 break;
-            case 3:
+            }
+            case FORTY_SCORE: {
                 score = FORTY_ALL;
                 break;
-            default:
+            }
+            default: {
                 score = DEUCE;
                 break;
+            }
 
         }
         return score;
@@ -79,10 +62,47 @@ public class TennisGame {
     private static String compareLargerOrEqual(int scoreOfFirstPlayer, int scoreOfSecondPlayer) {
         String score;
         int minusResult = scoreOfFirstPlayer - scoreOfSecondPlayer;
-        if (minusResult == 1) score = ADVANTAGE_PLAYER_1;
-        else if (minusResult == -1) score = ADVANTAGE_PLAYER_2;
-        else if (minusResult >= 2) score = WIN_FOR_PLAYER_1;
-        else score = WIN_FOR_PLAYER_2;
+        if (minusResult == 1) {
+            score = ADVANTAGE_PLAYER_1;
+        } else if (minusResult == -1) {
+            score = ADVANTAGE_PLAYER_2;
+        } else if (minusResult >= 2) {
+            score = WIN_FOR_PLAYER_1;
+        } else {
+            score = WIN_FOR_PLAYER_2;
+        }
         return score;
     }
+
+    public static String remainingCases(int scoreOfFirstPlayer, int scoreOfSecondPlayer, String score) {
+        int tempScore;
+        for (int i = 1; i < 3; i++) {
+            if (i == 1) {
+                tempScore = scoreOfFirstPlayer;
+            } else {
+                score += "-";
+                tempScore = scoreOfSecondPlayer;
+            }
+            switch (tempScore) {
+                case LOVE_SCORE: {
+                    score += LOVE;
+                    break;
+                }
+                case FIFTEEN_SCORE: {
+                    score += FIFTEEN;
+                    break;
+                }
+                case THIRTY_SCORE: {
+                    score += THIRTY;
+                    break;
+                }
+                case FORTY_SCORE: {
+                    score += FORTY;
+                    break;
+                }
+            }
+        }
+        return score;
+    }
+
 }

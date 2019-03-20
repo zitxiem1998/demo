@@ -13,4 +13,6 @@ public interface MyLinkedList<E> {
     E getFirst();
     E getLast();
     void clear();
+    void printList();
+    E removeLast();
 }

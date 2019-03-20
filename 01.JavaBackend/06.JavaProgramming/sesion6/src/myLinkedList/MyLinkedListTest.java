@@ -40,9 +40,10 @@ public class MyLinkedListTest<E> implements MyLinkedList {
 
     @Override
     public void addLast(Object o) {
-        Node temp;
+        Node temp = head;
         Node newNode = new Node(o);
-        for (temp = head; temp.next != null; temp = temp.next) {
+        while (temp.next != null) {
+            temp = temp.next;
         }
         temp.next = newNode;
         this.numNodes++;
@@ -52,7 +53,9 @@ public class MyLinkedListTest<E> implements MyLinkedList {
     public Object remove(int index) {
         Node temp = head;
         Node newNode;
-        if (index == 0) {
+        if (index < 0 || index >= this.numNodes) {
+            return null;
+        } else if (index == 0) {
             newNode = head;
             head = head.next;
             this.numNodes--;
@@ -142,22 +145,41 @@ public class MyLinkedListTest<E> implements MyLinkedList {
         }
     }
 
+    @Override
+    public void printList() {
+        for (int i = 0; i < numNodes; i++) {
+            System.out.println("object[" + i + "] :" + get(i));
+        }
+    }
+
+    @Override
+    public Object removeLast() {
+        Object newNode = remove(this.numNodes - 1);
+        return newNode;
+    }
+
     public static void main(String[] args) {
         MyLinkedListTest<Integer> myLinkedListTest = new MyLinkedListTest<Integer>();
-        myLinkedListTest.add(0,5);
+        myLinkedListTest.add(0, 5);
         myLinkedListTest.addfirst(2);
         myLinkedListTest.addLast(3);
         myLinkedListTest.add(2, 4);
-        for (int i = 0; i < numNodes; i++) {
-            System.out.println("object[" + i + "] :" + myLinkedListTest.get(i));
-        }
-        System.out.println(myLinkedListTest.remove(0));
-        for (int i = 0; i < numNodes; i++) {
-            System.out.println("object[" + i + "] :" + myLinkedListTest.get(i));
-        }
+        myLinkedListTest.printList();
+        System.out.println(myLinkedListTest.remove(3));
+        myLinkedListTest.printList();
         System.out.println("NumNodes is :" + myLinkedListTest.size());
-        System.out.println(myLinkedListTest.getFirst());
-        System.out.println(myLinkedListTest.getLast());
-        System.out.println(myLinkedListTest.indexOf(5));
+        //System.out.println(myLinkedListTest.getFirst());
+        //System.out.println(myLinkedListTest.getLast());
+        //System.out.println(myLinkedListTest.indexOf(5));
+        Object newNode = myLinkedListTest.removeLast();
+        System.out.println(newNode);
+        /*Object[] newObject = new Object[numNodes];
+        newObject = myLinkedListTest.clone();
+        for (int i = 0; i < numNodes; i++) {
+            System.out.println(newObject[i]);
+        }
+        */
+        System.out.println("NumNodes is :" + myLinkedListTest.size());
+        myLinkedListTest.printList();
     }
 }
