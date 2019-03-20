@@ -9,6 +9,11 @@ import java.io.PrintWriter;
 @WebServlet(name = "LoginServlet", urlPatterns = "/login")
 public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+    }
+
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
@@ -22,9 +27,5 @@ public class LoginServlet extends HttpServlet {
             printWriter.println("<h2>Login error</h2>");
         }
         printWriter.println("</html>");
-    }
-
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
     }
 }
