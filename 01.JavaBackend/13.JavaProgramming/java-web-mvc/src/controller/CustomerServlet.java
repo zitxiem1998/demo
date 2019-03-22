@@ -1,7 +1,5 @@
 package controller;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
-import javafx.scene.shape.ClosePathBuilder;
 import model.Customer;
 import service.CustomerService;
 import service.CustomerServiceImpl;
@@ -40,6 +38,25 @@ public class CustomerServlet extends HttpServlet {
             }
             default:
                 break;
+        }
+    }
+
+    private void viewCustomer(HttpServletRequest request, HttpServletResponse response) {
+        int id = Integer.parseInt(request.getParameter("id"));
+        Customer customer = this.customerService.findById(id);
+        RequestDispatcher dispatcher;
+        if (customer == null) {
+            dispatcher = request.getRequestDispatcher("error-404.jsp");
+        } else {
+            request.setAttribute("customer", customer);
+            dispatcher = request.getRequestDispatcher("customer/view.jsp");
+        }
+        try {
+            dispatcher.forward(request, response);
+        } catch (ServletException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
@@ -122,6 +139,10 @@ public class CustomerServlet extends HttpServlet {
             }
             case "delete": {
                 showDeleteFrom(request, response);
+                break;
+            }
+            case "view": {
+                viewCustomer(request, response);
                 break;
             }
             default:
