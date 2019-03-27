@@ -7,20 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07de4a9f-1bec-46ff-bd95-1a70b3fad158" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../java_web/.idea/libraries/WEB_INF.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_web/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_web/src/controller/ProductServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_web/src/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_web/src/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_web/src/service/ProductServiceimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_web/web/product/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_web/web/product/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_web/web/product/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_web/web/product/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_web/web/product/search.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_web/web/product/searchList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_web/web/product/view.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_web/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/src/controller/CustomerServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="619">
-              <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+              <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/web/customer/view.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="467">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -312,16 +300,15 @@
       <workItem from="1553419486562" duration="11413000" />
       <workItem from="1553447335551" duration="231000" />
       <workItem from="1553584702744" duration="3000" />
-      <workItem from="1553585380824" duration="1842000" />
+      <workItem from="1553585380824" duration="1889000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23177000" />
+    <option name="totallyTimeSpent" value="23224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -430,7 +417,7 @@
     <entry file="file://$PROJECT_DIR$/src/controller/CustomerServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="619">
-          <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -440,7 +427,7 @@
     <entry file="file://$PROJECT_DIR$/web/customer/view.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
