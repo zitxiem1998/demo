@@ -26,10 +26,10 @@
           <td><input type="text" name="secondOperand" id="secondOperand" value="${secondOperand}"></td>
         </tr>
       </table>
-      <input type="submit" value="Addition" name="calculator" formmethod="post">
-      <input type="submit" value="Subtraction" name="calculator"  formmethod="post">
-      <input type="submit" value="Multiplication" name="calculator"  formmethod="post">
-      <input type="submit" value="Division" name="calculator"  formmethod="post">
+      <input type="submit" value="Addition" name="calculator">
+      <input type="submit" value="Subtraction" name="calculator" >
+      <input type="submit" value="Multiplication" name="calculator">
+      <input type="submit" value="Division" name="calculator">
     </fieldset>
     </form>
     <h2>Result ${calculator}:  ${result}</h2>
