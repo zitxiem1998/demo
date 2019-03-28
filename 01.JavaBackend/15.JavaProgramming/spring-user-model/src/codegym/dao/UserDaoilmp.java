@@ -6,7 +6,8 @@ import codegym.model.User;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserDaoilmp {
+
+public class UserDaoilmp implements UserDao{
     private static List<User> users;
     static {
         users=new ArrayList<>();
@@ -17,7 +18,7 @@ public class UserDaoilmp {
     }
 
 
-    public static User checkLogin(Login login) {
+    public User checkLogin(Login login) {
         for (User u: users) {
             if(u.getUser().equals(login.getUser()) && u.getPassword().equals(login.getPassword())){
                 return u;
