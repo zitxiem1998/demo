@@ -1,11 +1,7 @@
 package com.codegym.cms;
 
-import com.codegym.cms.repository.CustomerRepository;
+import com.codegym.cms.repository.*;
 import com.codegym.cms.repository.CustomerRepositoryImpl;
-import com.codegym.cms.repository.CustomerRepositoryImpl;
-import com.codegym.cms.service.CustomerService;
-import com.codegym.cms.service.CustomerServiceImpl;
-import com.codegym.cms.service.CustomerServiceImpl;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
@@ -52,8 +48,8 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
     }
 
     @Bean
-    public CustomerService customerService(){
-        return new CustomerServiceImpl();
+    public BlogRepository blogRepository(){
+        return new BlogRepositoryImpl();
     }
 
 
@@ -94,7 +90,6 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
         LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource());
         em.setPackagesToScan(new String[]{"com.codegym.cms.model"});
-
         JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         em.setJpaVendorAdapter(vendorAdapter);
         em.setJpaProperties(additionalProperties());
@@ -105,7 +100,7 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
     public DataSource dataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/cms");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/cms?createDatabaseIfNotExist=true");
         dataSource.setUsername( "root" );
         dataSource.setPassword( "28101998" );
         return dataSource;
@@ -124,5 +119,4 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
         properties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
         return properties;
     }
-
 }
