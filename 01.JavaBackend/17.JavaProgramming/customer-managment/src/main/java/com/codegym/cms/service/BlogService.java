@@ -1,11 +1,13 @@
 package com.codegym.cms.service;
 
 import com.codegym.cms.model.Blog;
+import com.codegym.cms.model.Category;
 
-import java.util.List;
 
 public interface BlogService {
-    List<Blog> findAll();
+    Iterable<Blog> findAll();
+
+    Iterable<Blog> findAllByCategory(Category category);
 
     Blog findById(Long id);
 

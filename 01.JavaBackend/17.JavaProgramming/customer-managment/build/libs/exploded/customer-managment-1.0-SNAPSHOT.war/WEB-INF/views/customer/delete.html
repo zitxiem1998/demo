@@ -15,12 +15,16 @@
         <input th:type="hidden" name="id" th:field="*{id}">
         <table border="1">
             <tr>
-                <td>FirstName: </td>
+                <td>FirstName:</td>
                 <td><label th:text="${customer.firstName}"></label></td>
             </tr>
             <tr>
-                <td>LastName: </td>
-                <td><label th:text="${customer.lastName}"></label> </td>
+                <td>LastName:</td>
+                <td><label th:text="${customer.lastName}"></label></td>
+            </tr>
+            <tr>
+                <td>Province:</td>
+                <td><label th:text="${customer.province.name}"></label></td>
             </tr>
         </table>
         <input type="submit" value="Delete Customer">

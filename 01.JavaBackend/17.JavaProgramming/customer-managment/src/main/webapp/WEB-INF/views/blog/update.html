@@ -24,6 +24,16 @@
                 <td>Description: </td>
                 <td><input type="text" th:field="*{description}"></td>
             </tr>
+            <tr>
+                <td>Category :</td>
+                <td>
+                    <select name="category">
+                        <option th:each="p : ${categories}"
+                                th:value="${p.id}"
+                                th:text="${p.name}"
+                                th:selected="(${p.id} == *{category.id})"></option>
+                    </select>
+                </td>
         </table>
         <input type="submit" value="Update Blog">
     </form>
