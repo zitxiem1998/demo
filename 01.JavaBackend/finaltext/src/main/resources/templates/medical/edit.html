@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Staff</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link href="/css/list.css" rel="stylesheet">
+    <link href="/css/form.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div layout:fragment="content" class="container">
+    <div class="w3-card-4">
+        <div class="w3-container w3-green">
+            <h1>Edit Medical Record</h1>
+        </div>
+        <form class="w3-container" action="/medicalRecord/edit" method="post" th:object="${medical}">
+            <input type="hidden" th:field="*{id}">
+            <table class="table">
+                <tr>
+                    <td><label class="w3-text-green">Ho va ten benh nhan: </label></td>
+                    <td><input class="w3-input w3-border w3-sand" type="text" th:field="*{name}"></td>
+                    <td><span th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></span></td>
+                </tr>
+                <tr>
+                    <td><label class="w3-text-green">BirthDay: </label></td>
+                    <td><input class="w3-input w3-border w3-sand" type="date" th:field="*{birthday}"></td>
+                    <td><span th:if="${#fields.hasErrors('birthday')}" th:errors="*{birthday}"></span></td>
+                </tr>
+                <tr>
+                    <td><label class="w3-text-green">Hospitalized Day: </label></td>
+                    <td><input class="w3-input w3-border w3-sand" type="date" th:field="*{hospitalizedDay}"></td>
+                    <td><span th:if="${#fields.hasErrors('hospitalizedDay')}" th:errors="*{hospitalizedDay}"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label class="w3-text-green">Discharge Day: </label></td>
+                    <td><input class="w3-input w3-border w3-sand" type="date" th:field="*{dischargeDay}"></td>
+                    <td><span th:if="${#fields.hasErrors('dischargeDay')}" th:errors="*{dischargeDay}"></span></td>
+                </tr>
+                <tr>
+                    <td><label class="w3-text-green">Room: </label></td>
+                    <td><input class="w3-input w3-border w3-sand" type="text" th:field="*{room}"></td>
+                    <td><span th:if="${#fields.hasErrors('room')}" th:errors="*{room}"></span></td>
+                </tr>
+                <tr>
+                    <td><label class="w3-text-green">History: </label></td>
+                    <td><textarea rows="10" cols="50" class="w3-input w3-border w3-sand" type="text" th:field="*{history}"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label class="w3-text-green">Bac si:</label></td>
+                    <td><select th:field="*{doctor}">
+                        <option class="w3-blue-grey" th:each="c:${doctors}"
+                                th:value="${c.id}"
+                                th:text="${c.name}">
+                        </option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="w3-btn w3-green" type="submit">Update Staff</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -7,64 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91dfd98c-cc0f-4646-9bdc-07baa171fdca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../02.JavaProgramming/sesion2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02.JavaProgramming/sesion2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15.JavaProgramming/customer-managment/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/ApplicationConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/controller/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/controller/BlogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/model/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/model/Blog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/model/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/repository/BlogRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/repository/BlogRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/repository/BlogRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/repository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/repository/CustomerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/repository/CustomerRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/repository/Repository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/service/BlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/service/BlogService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/service/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/service/BlogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/service/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/service/CustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/views/blog/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/views/blog/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/views/blog/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/views/blog/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/views/blog/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/views/blog/update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/views/customer/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/views/customer/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/views/customer/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/views/customer/delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/views/customer/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/views/customer/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/views/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/views/customer/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/ApplicationConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/controller/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/controller/BlogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/model/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/model/Blog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/model/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/repository/BlogRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/repository/BlogRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/repository/BlogRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/repository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/repository/CustomerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/repository/CustomerRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/repository/Repository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/service/BlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/service/BlogService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/service/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/service/BlogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/service/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/out/production/classes/com/codegym/cms/service/CustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/controller/BlogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/model/Blog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/repository/BlogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/repository/BlogRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/service/BlogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/service/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/service/BlogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/java/com/codegym/cms/service/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/webapp/WEB-INF/views/blog/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/webapp/WEB-INF/views/blog/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/webapp/WEB-INF/views/blog/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/webapp/WEB-INF/views/blog/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/webapp/WEB-INF/views/blog/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/webapp/WEB-INF/views/blog/update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/webapp/WEB-INF/views/customer/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/webapp/WEB-INF/views/customer/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/webapp/WEB-INF/views/customer/delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/webapp/WEB-INF/views/customer/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/webapp/WEB-INF/views/customer/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/webapp/WEB-INF/views/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.JavaProgramming/customer-managment/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../validate-infor-user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../validate-infor-user/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.JavaProgramming/java-web-mvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.JavaProgramming/java-web-mvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -103,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="306">
               <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -114,25 +58,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+            <state relative-caret-position="102">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1064#1065#0" expanded="true" />
-                <element signature="e#1089#1090#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/CustomerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -142,32 +75,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="5" column="84" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/CustomerServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/CustomerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,8 +94,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+            <state relative-caret-position="221">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/CustomerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/CustomerServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/CustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -216,11 +158,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/repository/CustomerRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/service/CustomerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/service/CustomerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/controller/CustomerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
       </list>
     </option>
   </component>
@@ -232,8 +174,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="y" value="75" />
+    <option name="x" value="36" />
+    <option name="y" value="45" />
     <option name="width" value="1890" />
     <option name="height" value="975" />
   </component>
@@ -243,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -342,14 +283,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554966360977" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554967114623" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../codegym-crm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -460,18 +402,19 @@
       <option name="presentableId" value="Default" />
       <updated>1554888873693</updated>
       <workItem from="1554888884236" duration="3642000" />
-      <workItem from="1554965315042" duration="850000" />
+      <workItem from="1554965315042" duration="1882000" />
+      <workItem from="1556769319039" duration="6041000" />
+      <workItem from="1556795432359" duration="345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4492000" />
+    <option name="totallyTimeSpent" value="11910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26153848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -481,7 +424,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32969034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -489,7 +432,7 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.32969034" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32969034" />
       <window_info anchor="bottom" id="Spring" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32969034" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" />
@@ -530,10 +473,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/CustomerService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2152#2153#0" expanded="true" />
+            <element signature="e#2200#2201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -544,6 +502,27 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -559,50 +538,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2200#2201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/CustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="150">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
           </folding>
         </state>
       </provider>

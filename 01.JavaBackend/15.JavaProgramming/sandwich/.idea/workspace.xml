@@ -7,14 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="115d56f3-4779-4e16-90c6-ff50dcb88fd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-user-model/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-user-model/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-user-model/out/artifacts/spring_user_model_war_exploded/WEB-INF/classes/codegym/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-user-model/out/artifacts/spring_user_model_war_exploded/WEB-INF/classes/codegym/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-user-model/out/artifacts/spring_user_model_war_exploded/WEB-INF/classes/codegym/dao/UserDaoilmp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-user-model/out/artifacts/spring_user_model_war_exploded/WEB-INF/classes/codegym/dao/UserDaoilmp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-user-model/out/production/spring-user-model/codegym/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-user-model/out/production/spring-user-model/codegym/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-user-model/out/production/spring-user-model/codegym/dao/UserDaoilmp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-user-model/out/production/spring-user-model/codegym/dao/UserDaoilmp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-user-model/src/codegym/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-user-model/src/codegym/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-user-model/src/codegym/dao/UserDaoilmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-user-model/src/codegym/dao/UserDaoilmp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.JavaProgramming/ java-web-currency-converter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.JavaProgramming/ java-web-currency-converter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.JavaProgramming/customer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.JavaProgramming/customer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.JavaProgramming/customer/src/ListCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.JavaProgramming/customer/src/ListCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.JavaProgramming/simple_dictionnary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.JavaProgramming/simple_dictionnary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.JavaProgramming/java-web-mvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.JavaProgramming/java-web-mvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.JavaProgramming/java_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.JavaProgramming/java_web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../14.JavaProgramming/spring-greeting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14.JavaProgramming/spring-greeting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codegym/controllers/sandwichController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codegym/controllers/sandwichController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19-JavaProgramming/customer-information-validate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../19-JavaProgramming/customer-information-validate/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,20 +31,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="64" lean-forward="true" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="340">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/codegym/controllers/sandwichController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
+            <state relative-caret-position="289">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/condiment.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            <state relative-caret-position="255">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -72,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="21" column="88" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
+            <state relative-caret-position="76">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -125,6 +126,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,6 +145,13 @@
               <item name="sandwich" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="codegym" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sandwich" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sandwich" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codegym" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sandwich" type="b2602c69:ProjectViewProjectNode" />
@@ -167,8 +177,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,16 +298,18 @@
       <updated>1553757776804</updated>
       <workItem from="1553757784502" duration="5937000" />
       <workItem from="1553763816580" duration="1196000" />
+      <workItem from="1557472985742" duration="1236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7133000" />
+    <option name="totallyTimeSpent" value="8369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2574899" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -339,6 +349,9 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/codegym/controllers/model.java" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/error.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -346,37 +359,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/condiment.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        <state relative-caret-position="340">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" column="88" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
+        <state relative-caret-position="76">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/condiment.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/codegym/controllers/sandwichController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
+        <state relative-caret-position="289">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="64" lean-forward="true" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>

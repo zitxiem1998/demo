@@ -7,15 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c55d17a9-1e60-40ee-971e-247732f0fb74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../02.JavaProgramming/sesion2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02.JavaProgramming/sesion2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../15.JavaProgramming/customer-managment/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../customer-managment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-managment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../customer-managment/src/main/java/com/codegym/cms/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-managment/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../customer-managment/src/main/java/com/codegym/cms/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-managment/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../customer-managment/src/main/java/com/codegym/cms/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-managment/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../customer-managment/src/main/java/com/codegym/cms/repository/CustomerRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../customer-managment/src/main/java/com/codegym/cms/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-managment/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../customer-managment/src/main/java/com/codegym/cms/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-managment/src/main/java/com/codegym/cms/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.JavaProgramming/ java-web-currency-converter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.JavaProgramming/ java-web-currency-converter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.JavaProgramming/customer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.JavaProgramming/customer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.JavaProgramming/customer/src/ListCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.JavaProgramming/customer/src/ListCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.JavaProgramming/simple_dictionnary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.JavaProgramming/simple_dictionnary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.JavaProgramming/java-web-mvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.JavaProgramming/java-web-mvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.JavaProgramming/java_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.JavaProgramming/java_web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../14.JavaProgramming/spring-greeting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14.JavaProgramming/spring-greeting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../15.JavaProgramming/caculator-spring-mvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15.JavaProgramming/caculator-spring-mvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../15.JavaProgramming/sandwich/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15.JavaProgramming/sandwich/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../15.JavaProgramming/sandwich/src/codegym/controllers/sandwichController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../15.JavaProgramming/sandwich/src/codegym/controllers/sandwichController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19-JavaProgramming/customer-information-validate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../19-JavaProgramming/customer-information-validate/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -33,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/controller/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
+            <state relative-caret-position="459">
               <caret line="27" column="98" selection-start-line="27" selection-start-column="98" selection-end-line="27" selection-end-column="98" />
             </state>
           </provider>
@@ -57,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/CustomerRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/model/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="578">
               <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
             </state>
           </provider>
@@ -78,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/CustomerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="102">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,7 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/CustomerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="127">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#561#562#0" expanded="true" />
@@ -102,13 +105,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/ApplicationConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="467">
+              <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/ApplicationInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -303,8 +323,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,7 +332,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554454834141" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../customer-managment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -435,17 +455,18 @@
       <workItem from="1554360153524" duration="13457000" />
       <workItem from="1554448007276" duration="966000" />
       <workItem from="1554451274244" duration="3041000" />
+      <workItem from="1557720705828" duration="74000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32830000" />
+    <option name="totallyTimeSpent" value="32904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4950166" visible="true" weight="0.26639676" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4950166" visible="true" weight="0.27125505" />
       <window_info id="Structure" order="1" sideWeight="0.50498337" side_tool="true" weight="0.2574899" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -514,78 +535,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/CustomerRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/Repository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/CustomerRepositoryImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/model/Aladin.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/ApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/model/Blogger.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/BlogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/BlogService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/model/Blooger.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/BlogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/BlogRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/BlogRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/BlogServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/BlogRepositoryImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/BlogRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -593,13 +551,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/update.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/update.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/delete.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -607,65 +559,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/delete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="31" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/controller/BlogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/model/Blog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/create.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/delete.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/list.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/controller/BlogController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/model/Blog.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog/view.html" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/8.0.11/c790841f886ed40601887d1dbce55db8687321f4/mysql-connector-java-8.0.11-sources.jar!/com/mysql/cj/jdbc/AbandonedConnectionCleanupThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
@@ -683,27 +582,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/controller/CustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="27" column="98" selection-start-line="27" selection-start-column="98" selection-end-line="27" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/ApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="98" selection-start-line="27" selection-start-column="98" selection-end-line="27" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/ApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -712,7 +640,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/CustomerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="127">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#561#562#0" expanded="true" />
@@ -725,18 +654,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/CustomerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/controller/CustomerController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/ApplicationConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="467">
+          <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

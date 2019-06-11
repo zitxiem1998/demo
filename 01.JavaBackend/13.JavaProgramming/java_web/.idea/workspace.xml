@@ -7,7 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fc05ede-14ab-4849-af93-b1c97c9fe2f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../14.JavaProgramming/dictionary-spring-mvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14.JavaProgramming/dictionary-spring-mvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-mvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-mvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19-JavaProgramming/customer-information-validate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../19-JavaProgramming/customer-information-validate/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controller/ProductServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2623">
-              <caret line="198" column="13" selection-start-line="198" selection-start-column="13" selection-end-line="198" selection-end-column="13" />
+            <state relative-caret-position="17">
+              <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -191,6 +193,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,15 +234,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553590508824" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../12.JavaProgramming/ java-web-currency-converter" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -348,23 +350,25 @@
       <workItem from="1553584701800" duration="5303000" />
       <workItem from="1553676104452" duration="689000" />
       <workItem from="1553677678042" duration="356000" />
+      <workItem from="1556848922494" duration="27000" />
+      <workItem from="1556856211197" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18119000" />
+    <option name="totallyTimeSpent" value="18172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1295" height="704" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6494565" visible="true" weight="0.26639676" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.64402175" visible="true" weight="0.27611336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.35054347" side_tool="true" visible="true" weight="0.26639676" />
+      <window_info id="Web" order="7" sideWeight="0.35597825" side_tool="true" visible="true" weight="0.27611336" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969034" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.38251367" />
@@ -501,8 +505,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/ProductServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2623">
-          <caret line="198" column="13" selection-start-line="198" selection-start-column="13" selection-end-line="198" selection-end-column="13" />
+        <state relative-caret-position="17">
+          <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
         </state>
       </provider>
     </entry>
